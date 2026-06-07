@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Website ulang tahun spesial — perjalanan cinta kita" />
+  <title>Selamat Ulang Tahun ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loading-screen">
+  <div class="loading-inner">
+    <div class="loading-ornament top"></div>
+    <p class="loading-label">dengan segenap cinta</p>
+    <h1 class="loading-text">Untuk seseorang yang paling spesial dalam hidupku</h1>
+    <div class="loading-heart">❤️</div>
+    <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+    <div class="loading-ornament bottom"></div>
+  </div>
+</div>
+
+<!-- MUSIC PLAYER -->
+<div id="music-player" class="hidden">
+  <button id="music-btn" aria-label="Play/Pause musik">
+    <span class="music-icon">♪</span>
+    <span class="music-label">Musik</span>
+  </button>
+  <audio id="bg-music" loop>
+    <source src="music/background.mp3" type="audio/mpeg" />
+  </audio>
+</div>
+
+<!-- NAV DOTS -->
+<nav id="fp-nav-custom" class="hidden">
+  <ul id="fp-nav-list"></ul>
+</nav>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox hidden">
+  <button class="lightbox-close" id="lightbox-close">✕</button>
+  <button class="lightbox-nav prev" id="lightbox-prev">‹</button>
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption"></p>
+  </div>
+  <button class="lightbox-nav next" id="lightbox-next">›</button>
+</div>
+
+<!-- FULLPAGE -->
+<div id="fullpage">
+
+  <!-- SEC 0: HERO -->
+  <div class="section" id="sec-hero">
+    <div class="fp-bg" id="hero-bg"></div>
+    <div class="fp-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-date" id="hero-date"></p>
+      <h1 class="hero-title" id="hero-title"></h1>
+      <div class="hero-divider"><span>✦</span></div>
+      <p class="hero-text" id="hero-text"></p>
+      <div class="hero-buttons">
+        <button class="btn-primary" id="btn-start">Buka Kenangan Kita</button>
+        <button class="btn-outline" id="btn-music-hero">♪ Putar Musik</button>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll untuk memulai</span>
+    </div>
+  </div>
+
+  <!-- SEC 1: PERTEMUAN -->
+  <div class="section" id="sec-pertemuan">
+    <div class="fp-bg light-bg"></div>
+    <div class="section-inner">
+      <div class="chapter-left">
+        <span class="chapter-number" id="ch1-num"></span>
+        <span class="chapter-sub" id="ch1-sub"></span>
+        <h2 class="chapter-title dark" id="ch1-title"></h2>
+        <div class="chapter-line rose"></div>
+        <p class="chapter-narration dark" id="ch1-narration"></p>
+        <p class="chapter-desc" id="ch1-desc"></p>
+      </div>
+      <div class="chapter-right">
+        <div class="carousel" id="ch1-carousel">
+          <div class="carousel-track" id="ch1-track"></div>
+          <button class="carousel-btn prev" id="ch1-prev">&#8249;</button>
+          <button class="carousel-btn next" id="ch1-next">&#8250;</button>
+          <div class="carousel-dots" id="ch1-cdots"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 2: PACARAN -->
+  <div class="section" id="sec-pacaran">
+    <div class="fp-bg dark-bg"></div>
+    <div class="fp-overlay dark-overlay"></div>
+    <div class="section-inner">
+      <div class="chapter-left">
+        <span class="chapter-number" id="ch2-num"></span>
+        <span class="chapter-sub light" id="ch2-sub"></span>
+        <h2 class="chapter-title light" id="ch2-title"></h2>
+        <div class="chapter-line gold"></div>
+        <p class="chapter-narration light" id="ch2-narration"></p>
+        <div class="tl-slides" id="tl-slides"></div>
+        <div class="tl-nav" id="tl-nav"></div>
+      </div>
+      <div class="chapter-right">
+        <div class="carousel" id="ch2-carousel">
+          <div class="carousel-track" id="ch2-track"></div>
+          <button class="carousel-btn prev light-btn" id="ch2-prev">&#8249;</button>
+          <button class="carousel-btn next light-btn" id="ch2-next">&#8250;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 3: LAMARAN -->
+  <div class="section" id="sec-lamaran">
+    <div class="fp-bg" style="background:linear-gradient(135deg,#1a0f0a 0%,#2d1520 100%);"></div>
+    <div class="fp-overlay" style="background:rgba(20,8,15,0.55)"></div>
+    <div class="section-inner">
+      <div class="chapter-left">
+        <span class="chapter-number gold-num" id="ch3-num"></span>
+        <span class="chapter-sub light" id="ch3-sub"></span>
+        <h2 class="chapter-title light" id="ch3-title"></h2>
+        <div class="chapter-line rose"></div>
+        <p class="chapter-narration light" id="ch3-narration"></p>
+        <p class="chapter-desc light" id="ch3-desc"></p>
+      </div>
+      <div class="chapter-right">
+        <div class="carousel" id="ch3-carousel">
+          <div class="carousel-track" id="ch3-track"></div>
+          <button class="carousel-btn prev light-btn" id="ch3-prev">&#8249;</button>
+          <button class="carousel-btn next light-btn" id="ch3-next">&#8250;</button>
+          <div class="carousel-dots" id="ch3-cdots"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 4: PERNIKAHAN -->
+  <div class="section" id="sec-pernikahan">
+    <div class="fp-bg" style="background:linear-gradient(135deg,#0d0d0d 0%,#1a0a10 100%);"></div>
+    <div class="fp-overlay dark-overlay"></div>
+    <div class="section-inner">
+      <div class="chapter-left">
+        <span class="chapter-number" id="ch4-num"></span>
+        <span class="chapter-sub light" id="ch4-sub"></span>
+        <h2 class="chapter-title light" id="ch4-title"></h2>
+        <div class="chapter-line gold"></div>
+        <p class="chapter-narration light" id="ch4-narration"></p>
+        <p class="chapter-desc light" id="ch4-desc"></p>
+      </div>
+      <div class="chapter-right">
+        <div class="carousel" id="ch4-carousel">
+          <div class="carousel-track" id="ch4-track"></div>
+          <button class="carousel-btn prev light-btn" id="ch4-prev">&#8249;</button>
+          <button class="carousel-btn next light-btn" id="ch4-next">&#8250;</button>
+          <div class="carousel-dots" id="ch4-cdots"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 5: ORANG TUA -->
+  <div class="section" id="sec-orangtua">
+    <div class="fp-bg" style="background:linear-gradient(135deg,#f9f3ec 0%,#efe5d5 100%);"></div>
+    <div class="section-inner">
+      <div class="chapter-left">
+        <span class="chapter-number" id="ch5-num"></span>
+        <span class="chapter-sub" id="ch5-sub"></span>
+        <h2 class="chapter-title dark" id="ch5-title"></h2>
+        <div class="chapter-line rose"></div>
+        <p class="chapter-narration dark" id="ch5-narration"></p>
+        <p class="chapter-desc" id="ch5-desc"></p>
+      </div>
+      <div class="chapter-right">
+        <div class="carousel" id="ch5-carousel">
+          <div class="carousel-track" id="ch5-track"></div>
+          <button class="carousel-btn prev" id="ch5-prev">&#8249;</button>
+          <button class="carousel-btn next" id="ch5-next">&#8250;</button>
+          <div class="carousel-dots" id="ch5-cdots"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 6: GALERI -->
+  <div class="section" id="sec-galeri">
+    <div class="fp-bg" style="background:#111;"></div>
+    <div class="fp-overlay dark-overlay"></div>
+    <div class="section-inner">
+      <div class="chapter-left">
+        <span class="chapter-number" id="ch6-num"></span>
+        <span class="chapter-sub light" id="ch6-sub"></span>
+        <h2 class="chapter-title light" id="ch6-title"></h2>
+        <div class="chapter-line gold"></div>
+        <p class="chapter-narration light" id="ch6-narration"></p>
+      </div>
+      <div class="chapter-right">
+        <div class="carousel" id="ch6-carousel">
+          <div class="carousel-track" id="ch6-track"></div>
+          <button class="carousel-btn prev light-btn" id="ch6-prev">&#8249;</button>
+          <button class="carousel-btn next light-btn" id="ch6-next">&#8250;</button>
+          <div class="carousel-dots" id="ch6-cdots"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 7: VIDEO -->
+  <div class="section" id="sec-video">
+    <div class="fp-bg" style="background:radial-gradient(ellipse at center,#1a0a12 0%,#0a0a0a 100%);"></div>
+    <div class="section-inner">
+      <div class="chapter-left">
+        <span class="chapter-number" id="ch7-num"></span>
+        <span class="chapter-sub light" id="ch7-sub"></span>
+        <h2 class="chapter-title light" id="ch7-title"></h2>
+        <div class="chapter-line rose"></div>
+        <p class="chapter-narration light" id="ch7-narration"></p>
+      </div>
+      <div class="chapter-right">
+        <div class="video-gallery" id="video-gallery"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 8: SURAT -->
+  <div class="section" id="sec-surat">
+    <div class="fp-bg" style="background:linear-gradient(135deg,#1c0f08 0%,#2a1218 100%);"></div>
+    <div class="fp-overlay" style="background:rgba(15,8,5,0.4)"></div>
+    <div class="section-inner centered">
+      <div class="chapter-header-center">
+        <span class="chapter-number" id="ch8-num"></span>
+        <span class="chapter-sub light" id="ch8-sub"></span>
+        <h2 class="chapter-title light" id="ch8-title"></h2>
+        <div class="chapter-line gold"></div>
+      </div>
+      <div class="letter-container">
+        <div class="letter-paper">
+          <div class="letter-deco">✦ ❤️ ✦</div>
+          <div class="letter-body" id="letter-body"></div>
+          <div class="letter-signature" id="letter-sig"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 9: UCAPAN -->
+  <div class="section" id="sec-ucapan">
+    <div class="fp-bg" style="background:radial-gradient(ellipse at 50% 60%,#2d1020 0%,#0a050a 100%);"></div>
+    <div class="section-inner centered">
+      <div class="chapter-header-center">
+        <span class="chapter-number" id="ch9-num"></span>
+        <span class="chapter-sub light" id="ch9-sub"></span>
+        <h2 class="chapter-title light" id="ch9-title"></h2>
+        <div class="chapter-line gold"></div>
+      </div>
+      <div class="birthday-card">
+        <div class="card-glow"></div>
+        <div class="card-icon">🎂</div>
+        <div class="card-message" id="card-message"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEC 10: CLOSING -->
+  <div class="section" id="sec-closing">
+    <div class="fp-bg" id="closing-bg"></div>
+    <div class="fp-overlay closing-overlay"></div>
+    <div id="floating-hearts"></div>
+    <div class="closing-content">
+      <p class="closing-main" id="closing-main"></p>
+      <div class="closing-divider">✦ ❤️ ✦</div>
+      <p class="closing-love" id="closing-love"></p>
+      <p class="closing-sig" id="closing-sender"></p>
+    </div>
+  </div>
+
+</div><!-- end #fullpage -->
+
+<button id="back-top" aria-label="Kembali ke awal" title="Kembali ke awal">↑</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

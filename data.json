@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "Selamat Ulang Tahun, Sayangku ❤️",
+    "recipient": "Tri Ayu Permata Sari",
+    "sender": "Andi Putra Ogie",
+    "birthdate": "12 Juni",
+    "year": "2026"
+  },
+  "opening": {
+    "loading_text": "Untuk seseorang yang paling spesial dalam hidupku ❤️",
+    "headline": "Selamat Ulang Tahun Sayang ❤️",
+    "subtext": "Hari ini bukan hanya tentang bertambahnya usia.\nHari ini adalah perayaan untuk semua kebahagiaan yang telah kamu hadirkan dalam hidupku.",
+    "hero_image": "images/hero.jpg"
+  },
+  "chapters": [
+    {
+      "id": "pertemuan",
+      "number": "I",
+      "title": "Awal Dari Segalanya",
+      "subtitle": "Pertemuan",
+      "narration": "Siapa sangka, pertemuan melalui Line People Nearby menjadi awal dari kisah yang mengubah hidup kami.",
+      "description": "Dari sebuah hari yang tampak biasa, semesta mempertemukan dua orang yang akhirnya saling menemukan.",
+      "photos": [
+        {
+          "src": "images/meet1.jpg",
+          "caption": "Pertama kali bertemu",
+          "date": "2017"
+        },
+        {
+          "src": "images/meet2.jpg",
+          "caption": "Senyum yang pertama kali membuatku jatuh hati",
+          "date": "2017"
+        },
+        {
+          "src": "images/meet3.jpg",
+          "caption": "Awal dari segalanya",
+          "date": "2017"
+        }
+      ]
+    },
+    {
+      "id": "pacaran",
+      "number": "II",
+      "title": "Hari-Hari Penuh Warna",
+      "subtitle": "Masa Pacaran",
+      "narration": "Setiap hari bersamamu adalah hadiah. Setiap momen adalah kenangan yang akan selalu kusimpan di hati.",
+      "timeline": [
+        {
+          "date": "April 2017",
+          "title": "Kencan Pertama",
+          "story": "Ajakan nonton yang sederhana itu ternyata menjadi salah satu kenangan favoritku. Di antara tawa, obrolan, dan suasana yang canggung, aku mulai menyadari betapa spesialnya dirimu.",
+          "src": "images/date1.jpg"
+        },
+        {
+          "date": "Juni 2019",
+          "title": "Ulang Tahunmu yang Selalu Bersamaku",
+          "story": "Setiap kali aku merayakan ulang tahunmu. Aku sangat ingin menjadi orang yang merayakan setiap ulang tahunmu untuk sisa hidupmu.",
+          "src": "images/date2.jpg"
+        },
+        {
+          "date": "Juli 2019",
+          "title": "Romantis di Bawah Bintang",
+          "story": "Malam itu langit begitu cerah. Aku berjanji dalam hati bahwa aku ingin selalu berada di sisimu, selamanya.",
+          "src": "images/date3.jpg"
+        },
+        {
+          "date": "Desember 2019",
+          "title": "Janji yang Kutepati",
+          "story": "Saat melihatmu wisuda, aku merasa semakin yakin dengan pilihanku. Aku ingin mendampingimu, tetapi juga ingin melihatmu menyelesaikan impianmu terlebih dahulu. Aku menunggu sampai hari itu tiba, dan setiap penantian terasa sepadan karena pada akhirnya aku bisa memanggilmu istriku.",
+          "src": "images/date4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "lamaran",
+      "number": "III",
+      "title": "Maukah Kamu Menjadi Hidupku?",
+      "subtitle": "Lamaran",
+      "narration": "Hari ketika aku yakin bahwa aku ingin menghabiskan seluruh hidupku bersamamu.",
+      "description": "Dengan gemetar tapi penuh keyakinan, aku mengulurkan tangan dan berharap kamu menggenggamnya selamanya.",
+      "photos": [
+        {
+          "src": "images/proposal1.jpg",
+          "caption": "Momen yang paling berani dalam hidupku"
+        },
+        {
+          "src": "images/proposal2.jpg",
+          "caption": "Ya! Kata yang paling indah yang pernah kudengar"
+        },
+        {
+          "src": "images/proposal3.jpg",
+          "caption": "Awal dari janji kita"
+        }
+      ]
+    },
+    {
+      "id": "pernikahan",
+      "number": "IV",
+      "title": "Dua Menjadi Satu",
+      "subtitle": "Pernikahan",
+      "narration": "Hari ketika dua perjalanan menjadi satu tujuan.",
+      "description": "Di hadapan keluarga dan orang-orang tercinta, kita mengucapkan janji yang paling suci. Janji untuk saling menjaga, selamanya.",
+      "photos": [
+        {
+          "src": "images/wedding1.jpg",
+          "caption": "Hari paling sakral dalam hidupku"
+        },
+        {
+          "src": "images/wedding2.jpg",
+          "caption": "Sah menjadi milikku selamanya"
+        },
+        {
+          "src": "images/wedding3.jpg",
+          "caption": "Dua keluarga menjadi satu"
+        }
+      ]
+    },
+    {
+      "id": "orang-tua",
+      "number": "V",
+      "title": "Cinta yang Bertumbuh",
+      "subtitle": "Menjadi Orang Tua",
+      "narration": "Kebahagiaan kami bertambah ketika cinta ini tumbuh menjadi sebuah keluarga.",
+      "description": "Tangis pertamanya adalah melodi terindah yang pernah kita dengar bersama. Sejak saat itu, hidup kita tidak pernah sama lagi — menjadi jauh lebih sempurna.",
+      "photos": [
+        {
+          "src": "images/baby1.jpg",
+          "caption": "Menanti kehadiran buah hati kita"
+        },
+        {
+          "src": "images/baby2.jpg",
+          "caption": "Hari paling ajaib dalam hidup kita"
+        },
+        {
+          "src": "images/baby3.jpg",
+          "caption": "Keluarga kita yang sempurna"
+        },
+        {
+          "src": "images/baby4.jpg",
+          "caption": "Tumbuh besar dengan cinta"
+        }
+      ]
+    },
+    {
+      "id": "keluarga",
+      "number": "VI",
+      "title": "Album Kenangan Kita",
+      "subtitle": "Kenangan Keluarga",
+      "narration": "Setiap foto menyimpan seribu kata. Setiap momen adalah harta yang tak ternilai.",
+      "photos": [
+        {
+          "src": "images/family1.jpg"
+        },
+        {
+          "src": "images/family2.jpg"
+        },
+        {
+          "src": "images/family3.jpg"
+        },
+        {
+          "src": "images/family4.jpg"
+        },
+        {
+          "src": "images/family5.jpg"
+        },
+        {
+          "src": "images/family6.jpg"
+        },
+        {
+          "src": "images/family7.jpg"
+        },
+        {
+          "src": "images/family8.jpg"
+        },
+        {
+          "src": "images/family9.jpg"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "number": "VII",
+      "title": "Potongan-Potongan Bahagia",
+      "subtitle": "Video Kenangan",
+      "narration": "Karena beberapa momen terlalu indah untuk hanya diabadikan dalam foto.",
+      "videos": [
+        {
+          "title": "Perjalanan Cinta Kita",
+          "description": "Dari pertemuan pertama hingga hari ini",
+          "src": "images/video1.mp4",
+          "thumbnail": "images/video-thumb1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "surat",
+      "number": "VIII",
+      "title": "Dari Hatiku, Untukmu",
+      "subtitle": "Surat Cinta",
+      "letter": "Tri Ayu Permata Sari yang kucintai,\n\nJika ada satu hal yang selalu kusyukuri setiap hari, itu adalah momen pertama kita bertemu melalui Line People Nearby. Saat itu aku tidak tahu bahwa hidupku sedang berdiri di ambang perubahan terbesar yang pernah ada.\n\nKamu datang dengan caramu yang perlahan, dengan senyummu yang hangat, dan dengan ketulusanmu yang membuatku percaya bahwa cinta sejati itu nyata.\n\nKita telah bersama melewati begitu banyak hal. Tawa yang membuat perut sakit. Air mata yang kita usap bergantian. Keputusan besar yang kita buat bersama. Dan setiap momen — momen biasa sekalipun — terasa luar biasa karena kamu ada di sana.\n\nKetika kita menjadi orang tua, aku melihat sisi dirimu yang membuatku semakin jatuh cinta. Caramu merawat, caramu mencintai, caramu menjadi rumah bagi keluarga kita.\n\nHari ini, di hari ulang tahunmu, aku ingin kamu tahu:\n\nKamu adalah alasan terbesarku untuk bersyukur. Kamu adalah tangan yang selalu ingin kupegang. Kamu adalah rumah yang selalu ingin kukembali.\n\nTerima kasih sudah memilihku setiap hari. Terima kasih sudah bertahan di setiap badai. Terima kasih sudah menjadi kamu.\n\nAku mencintaimu — bukan hanya hari ini, tapi selamanya.\n\nSeluruh cintaku,\nAndi Putra Ogie"
+    },
+    {
+      "id": "ucapan",
+      "number": "IX",
+      "title": "Untuk Hari Spesialmu",
+      "subtitle": "Ucapan Ulang Tahun",
+      "message": "Selamat ulang tahun, Tri Ayu Permata Sari.\n\nTerima kasih sudah menjadi pasangan terbaik, sahabat terbaik, dan orang tua terbaik bagi keluarga kita.\n\nSemoga sehat selalu, panjang umur, bahagia, dan semua impianmu tercapai.\n\nAku akan selalu mencintaimu hari ini, besok, dan selamanya."
+    }
+  ],
+  "closing": {
+    "background_image": "images/family-best.jpg",
+    "main_text": "Terima kasih sudah berjalan sejauh ini bersamaku ❤️",
+    "love_text": "Aku mencintaimu kemarin.\nAku mencintaimu hari ini.\nDan aku akan mencintaimu sampai kapan pun."
+  }
+}
