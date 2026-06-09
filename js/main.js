@@ -478,7 +478,7 @@ function startStitchSnow() {
         `object-fit:contain;` +
         `opacity:${(Math.random() * 0.3 + 0.65).toFixed(2)};` +
         `will-change:transform;` +
-        `filter:drop-shadow(0 2px 6px rgba(0,0,0,0.35));`;
+        `filter:none;`,
       wrap.appendChild(el);
 
       particles.push({
